@@ -1,0 +1,48 @@
+{
+  "name": "Hermandad del Señor de los Milagros",
+  "short_name": "SNM Asistencia",
+  "description": "Sistema de control de asistencia por código de barras del DNI — Hermandad del Señor de los Milagros de Nazarenas",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#3B1C6E",
+  "theme_color": "#3B1C6E",
+  "lang": "es",
+  "categories": ["utilities", "productivity"],
+  "icons": [
+    { "src": "icons/icon-72x72.png",   "sizes": "72x72",   "type": "image/png", "purpose": "maskable any" },
+    { "src": "icons/icon-96x96.png",   "sizes": "96x96",   "type": "image/png", "purpose": "maskable any" },
+    { "src": "icons/icon-128x128.png", "sizes": "128x128", "type": "image/png", "purpose": "maskable any" },
+    { "src": "icons/icon-144x144.png", "sizes": "144x144", "type": "image/png", "purpose": "maskable any" },
+    { "src": "icons/icon-152x152.png", "sizes": "152x152", "type": "image/png", "purpose": "maskable any" },
+    { "src": "icons/icon-192x192.png", "sizes": "192x192", "type": "image/png", "purpose": "maskable any" },
+    { "src": "icons/icon-384x384.png", "sizes": "384x384", "type": "image/png", "purpose": "maskable any" },
+    { "src": "icons/icon-512x512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable any" }
+  ],
+  "screenshots": [
+    {
+      "src": "icons/icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "form_factor": "narrow",
+      "label": "Pantalla de escaneo de asistencia"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Escanear DNI",
+      "short_name": "Escanear",
+      "description": "Ir directamente al lector de código de barras",
+      "url": "./index.html#scanner",
+      "icons": [{ "src": "icons/icon-96x96.png", "sizes": "96x96" }]
+    },
+    {
+      "name": "Ver Asistencia",
+      "short_name": "Asistencia",
+      "description": "Ver lista de asistencia del día",
+      "url": "./index.html#asistencia",
+      "icons": [{ "src": "icons/icon-96x96.png", "sizes": "96x96" }]
+    }
+  ]
+}
